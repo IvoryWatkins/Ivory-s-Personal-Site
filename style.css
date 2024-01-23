@@ -1,10 +1,10 @@
 nav{
     background-color: hwb(320 11% 37% / 0.568);
-    border: 2px solid #b60b60;
+    border: .6vw solid #b60b60;
     position: relative;
     align-items: center;
-    height: 100px;
-    padding: 10px;
+    height: 4vw;
+    padding: 4vw;
     text-align: center;
     display:flex;
     justify-content: space-around;
@@ -20,17 +20,21 @@ html{
 background-color: #f09f0ab9;
 font-size: larger;
 text-align: justify;
-border-left: 5px solid black;
-border-right: 5px solid black;
+border-left: 5vw solid black;
+border-right: 5vw solid black;
 }
 
 img{
     float: right;
-    margin:20px 0 20px 20px
+    margin:2vw 2vw 2vw 2vw
 }
 
 h2{
-    text-align: center;
+    text-align:center;
+}
+
+h4{
+    display: inline-block;
 }
 
 section h2{
@@ -41,34 +45,36 @@ section h2{
 
 img.about-img{
     float: left;
-    margin: 20px 20px 20px 20px
+    margin: 2vw 2vw 2vw 2vw
 }
 
 img.about-img2{
     float: right
-    margin: 20px 20px 20px 20px
+    margin: 2vw 2vw 2vw 2vw
 }
 
 p{
     display: inline-table;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0vw;
+    margin-inline-end: 0vw;
 }
 
 
 img.about-img3{
-  height: 70vh; 
-  width: 84.7vh
+  height: 50vw; 
+  width: 70vw;
+  position: relative;
+
 }
 
 img.about-img4{
     float: right;
-    margin: 20px 20px 20px 20px
+    margin: 2vw 2vw 2vw 2vw
 }
 
 img.about-img5{
-    float:left
-    margin: 20px 20px 20px 20px
+    float: left;
+    margin: 2vw 2vw 2vw 2vw
 }
